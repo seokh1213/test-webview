@@ -6,10 +6,10 @@ function TestPage() {
     navigate("/");
   };
   const availableHandler = () => {
-    navigate("/?seatId=1&available=true&startTime=10:00&endTime=19:00&date=2021-12-15");
+    navigate("/?layoutId=1&seatId=1&available=true&startTime=10:00&endTime=19:00&date=2021-12-15");
   };
   const unavailableHandler = () => {
-    navigate("/?seatId=1&available=false&startTime=10:00&endTime=19:00&date=2021-12-15");
+    navigate("/?layoutId=1&seatId=1&available=false&startTime=10:00&endTime=19:00&date=2021-12-15");
   };
 
   return (
