@@ -4,9 +4,9 @@ import TestPage from "./pages/TestPage";
 function App() {
   return (
     <Router>
-      <div>hello</div>
       <Routes>
         <Route path="/" element={<TestPage />} />
+        <Route path="/test-webview" element={<TestPage />} />
       </Routes>
     </Router>
   );
