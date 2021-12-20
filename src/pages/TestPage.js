@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 
 function TestPage() {
-  const baseUrl = "/test-webview/result";
+  const baseUrl = "/test-webview";
 
   const navigate = useNavigate();
   const homeHandler = () => {
