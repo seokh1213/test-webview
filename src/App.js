@@ -6,6 +6,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<TestPage />} />
+        <Route path="/test-webview" element={<TestPage />} />
         <Route path="/test-webview/result" element={<TestPage />} />
       </Routes>
     </Router>
